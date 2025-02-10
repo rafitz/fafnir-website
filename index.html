@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fafnir Solutions</title>
+    <link rel="shortcut icon" type="imagex/png" href="images/logoicon2.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img id="logo" src="images/logo.png" alt="Fafnir Solutions Logo">
+            </div>
+            <nav>
+                <div>
+                    <ul>
+                        <li class="nav-container"><a href="#Serviço">Serviços</a></li>
+                        <li class="nav-container"><a href="#Portfolio">Portfólio</a></li>
+                        <li class="nav-container"><a href="https://discord.gg/tCE9wsS42p">Produtos</a></li>
+                        <div class="btn"></div>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section class="hero">
+                <h1>FAFNIR</h1>
+                <h2>SOLUTIONS</h2>
+                <p>Todas as soluções para o seu servidor de <span>FiveM</span></p>
+                <div class="hero-image">
+                    <div class="slide active" style="background-image: url('images/banner1.png')"></div>
+                    <div class="slide" style="background-image: url('images/banner2.png')"></div>
+                    <div class="slide" style="background-image: url('images/banner3.png')"></div>
+                </div>
+            </section>
+            <section class="services" id="Serviço">
+                <h2>Nossos Serviços</h2>
+                <p class="servicep2">Nossa equipe conta com especialistas qualificados para todo o problema que você imaginar!</p>
+                <div class="service-cards">
+                    <div class="card2">
+                        <h3>Resolução de Problemas</h3>
+                        <p class="servicep">Nossa equipe está preparada para solucionar qualquer problema, garantindo que seus scripts funcionem sem problemas.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Desenvolvimento de Interfaces</h3>
+                        <p class="servicep">Desenvolvemos interfaces intuitivas e atrativas que melhoram a experiência do usuário.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Personalizações</h3>
+                        <p class="servicep">Personalizamos Scripts ou Interfaces apenas para seu servidor, a partir da sua imaginação e ideia.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="portfolio" id="Portfolio">
+                <h2>Nossos Portfólios</h2>
+                <p>Confira alguns de nossos projetos.</p>
+                <div class="portfolio-images">
+                    <div id="image1" class="image-placeholder"></div>
+                    <div id="image2"class="image-placeholder"></div>
+                    <div id="image3" class="image-placeholder"></div>
+                </div>
+            </section>
+            <div id="modal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="modal-image">
+            </div>
+        </main>
+        <footer>
+            <p>© 2024 Fafnir Solutions. Todos os direitos reservados.</p>
+            <a href="images/termos.pdf" download="termos.pdf">Termos de serviço</a>
+        </footer>
+    </div>
+</body>
+</html>
